@@ -1,0 +1,191 @@
+/* * {
+	outline: 1px solid red;
+} */
+
+body {
+	margin: 0;
+
+	font-family: "Roboto";
+	font-size: 36px;
+	color: #1f2937;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.main-1,
+.footer {
+	background-color: #1f2937;
+	color: #f9faf8;
+	font-size: 18px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	margin: 16px 128px;
+	margin-bottom: 128px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+	font-size: 24px;
+}
+
+ul {
+	padding: 0;
+
+	display: flex;
+	gap: 16px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #f9faf8;
+
+	text-decoration: none;
+}
+
+.main-1-content {
+	padding-bottom: 128px;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.main-1-left {
+	width: 450px;
+}
+
+.main-1-title {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.main-1-text {
+	color: #e5e7eb;
+
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+button {
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-weight: 900;
+	padding: 8px 32px;
+
+	border: none;
+	border-radius: 5px;
+}
+
+.main-1-image {
+	background-color: grey;
+	padding: 0 128px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-2 {
+	margin-bottom: 128px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-2-title {
+	font-weight: 900;
+
+	margin: 32px;
+}
+
+.main-2-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 64px;
+}
+
+.card {
+	width: 180px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.main-2-text {
+	font-size: 18px;
+
+	padding: 5px;
+	margin: 0;
+}
+
+.main-2-image {
+	height: 170px;
+	width: 170px;
+
+	border: 3px solid #3882f6;
+	border-radius: 10px;
+}
+
+.main-3 {
+	background-color: #e5e7eb;
+	padding: 64px 300px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.main-3-text {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.quotee {
+	text-align: right;
+}
+
+.main-4 {
+	padding: 128px 256px;
+	color: #f9faf8;
+}
+
+.main-4-content {
+	background-color: #3882f6;
+	padding: 64px;
+	border-radius: 7px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.main-4-text {
+	font-size: 18px;
+}
+
+.main-4-button {
+	height: 30px;
+	width: 100px;
+	padding: 0;
+	border: 2px solid #f9faf8;
+	border-radius: 7px;
+}
+
+.footer {
+	padding: 32px;
+	text-align: center;
+}
